@@ -20,7 +20,6 @@ jobs:
 
       - name: Install dependencies 📦
         run: npm ci
-        env: CYPRESS_INSTALL_BINARY=0
 
       - name: Build the app 🏗
         run: npm run build
