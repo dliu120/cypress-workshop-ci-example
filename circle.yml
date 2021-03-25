@@ -12,3 +12,6 @@ workflows:
           no-workspace: true
           record: true
           tags: circleci
+          parallel: true
+          parallelism: 4
+          group: 'Parallel spec'
